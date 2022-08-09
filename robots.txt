@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: 
+Disallow: /promociones-playa/
+Disallow: /promociones-veracruz/
+
+Sitemap: http://intimisimo.mx/sitemap.xml

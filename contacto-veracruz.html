@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147524022-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147524022-1');
+  </script>
+    <!-- Metas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="📞Contacto Intimísimo❤️ Veracruz - Contáctanos y con gusto te atenderemos👌">
+    <meta name="keywords" content="intimisimo, intimismo contacto, intimisimo contacto veracruz, veracruz, intimismo telefonos, intimisimo numeros, intimisimo whatsapp" />
+    <meta name="author" content="Luis Angel Hernández Castillo">
+    <!-- Title -->
+    <title>Intimísimo - Contacto Veracruz</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="cssload-container">
+            <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
+        </div>
+    </div>
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="palatin-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="palatinNav">
+                        <!-- Nav brand -->
+                        <a href="http://intimisimo.mx" data-toggle="tooltip" data-placement="top" title="Página principal" class="nav-brand"><img src="img/core-img/logo.png" alt="logo-intimisimo"></a>
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="veracruz">Inicio</a></li>
+                                    <li><a href="habitaciones-veracruz">Habitaciones</a></li>
+                                    <li><a href="sexshop-veracruz">Sexshop</a></li>
+                                    <!--<li><a href="promociones-veracruz">Promociones</a></li>-->
+                                    <li class="active"><a href="#">Contacto</a></li>
+                                </ul>
+                                <!-- Button -->
+                                <div class="menu-btn">
+                                    <a href="#reserva" data-toggle="tooltip" data-placement="bottom" title="¡Reserva ya!" class="btn palatin-btn">RESERVA</a>
+                                </div>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+    <!-- ##### Breadcumb Area Start ##### -->
+    <section class="breadcumb-area bg-img d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/bg-8.jpg);">
+        <div class="bradcumbContent">
+            <h2>CONTACTO</h2>
+        </div>
+    </section>
+    <!-- ##### Breadcumb Area End ##### -->
+    <!-- ##### Book Now Area Start ##### -->
+    <div class="book-now-area" id="reserva">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="book-now-form">
+                        <form action="#">
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select1">FECHA</label>
+                                <input type="date" name="date" class="form-control" required>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select">SUCURSAL</label>
+                                <select name="tipohabitacion" class="form-control" required>
+                                    <option value="constituyentes">Miguel Alemán</option>
+                                    <option value="carretera">Aeropuerto</option>
+                                </select>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select2">HABITACIÓN</label>
+                                <select name="tipohabitacion" onChange="agregarOpciones(this.form)" class="form-control" required>
+                                    <option value="Junior Suite">Junior Suite</option>
+                                    <option value="Master Suite">Master Suite</option>
+                                </select>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select3">TIEMPO</label>
+                                <select name="horahabitacion" onChange="direccion(this.form)" class="form-control" required>
+                                    <option value="">Esperando selección</option>
+                                </select>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select4">ADULTOS</label>
+                                <input type="number" name="numero-adultos" class="form-control" required>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select5">NOMBRE</label>
+                                <input type="text" name="nombre" class="form-control" required>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select6">TELÉFONO</label>
+                                <input type="tel" name="telefono" class="form-control" required>
+                            </div>
+                            <!-- Button -->
+                            <button type="submit">¡RESERVA YA!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Book Now Area End ##### -->
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-information-area">
+        <div class="container">
+            <div class="row">
+                <!-- Single Contact Information -->
+                <div class="col-12 col-lg-6">
+                    <div class="single-contact-information mb-50">
+                        <div class="section-text">
+                            <h3 class="solo-rojo">Sucursal Miguel Alemán</h3>
+                        </div>
+                        <!-- Single Contact Information -->
+                        <div class="contact-content d-flex">
+                            <p>Dirección</p>
+                            <p class="text-white">Av. Miguel Alemán<br> esquina Juan Enríquez.</p>
+                        </div>
+                        <!-- Single Contact Information -->
+                        <div class="contact-content d-flex">
+                            <p>Teléfono</p>
+                            <p><a href="tel: 229 348 5219" class="blanco-contacto">348 5219</a></p>
+                        </div>
+                        <!-- Single Contact Information -->
+                        <div class="contact-content d-flex">
+                            <p>WhatsApp</p>
+                            <p><a href="https://wa.me/522291724359?text=Hola,%20me%20gustaría%20saber%20el%20costo%20de%20las%20habitaciones" class="blanco-contacto">(229) 172 4359</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Contact Information -->
+                <div class="col-12 col-lg-6">
+                    <div class="single-contact-information mb-50">
+                        <div class="section-text">
+                            <h3 class="solo-rojo">Sucursal Aeropuerto</h3>
+                        </div>
+                        <!-- Single Contact Information -->
+                        <div class="contact-content d-flex">
+                            <p>Dirección</p>
+                            <p class="text-white">Calle 5 esquina <br>calle 1 Col. San José.</p>
+                        </div>
+                        <!-- Single Contact Information -->
+                        <div class="contact-content d-flex">
+                            <p>Teléfono</p>
+                            <p><a href="tel: 229 690 7730" class="blanco-contacto">690 7730</a></p>
+                        </div>
+                        <!-- Single Contact Information -->
+                        <div class="contact-content d-flex">
+                            <p>WhatsApp</p>
+                            <p><a href="https://wa.me/522293696479?text=Hola,%20me%20gustaría%20saber%20el%20costo%20de%20las%20habitaciones" class="blanco-contacto">(229) 369 6479</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+    <!-- ##### Contact Form Area Start ##### -->
+    <section class="contact-form-area mb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <div class="line-"></div>
+                        <h2>Contáctanos</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <!-- Contact Form -->
+                    <div id="contact-form" class="wow fadeIn first">
+                        <form id="contactForm" data-toggle="validator">
+                            <div class="row">
+                                <div class="form-group col-lg-4">
+                                    <input type="text" class="form-control" id="name" placeholder="Nombre" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-lg-4">
+                                    <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-lg-4">
+                                    <input type="text" class="form-control" id="msg_subject" placeholder="Asunto" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-12">
+                                    <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                                    <div class="help-block with-errors"></div>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" id="form-submit" class="btn palatin-btn">Envíar Mensaje</button>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- END Contact Form -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Form Area End ##### -->
+    <!-- ##### Google Maps ##### -->
+    <div id="map"></div>
+    <!-- ##### End Google Maps ##### -->
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-lg-5">
+                    <div class="footer-widget-area mt-50">
+                        <a href="http://intimisimo.mx" class="d-block mb-5" data-toggle="tooltip" data-placement="top" title="Página principal"><img src="img/core-img/logo.png" alt="logo-intimisimo"></a>
+                        <p>Somos una empresa orgullosamente mexicana con presencia en Playa del Carmen y Veracruz. ¡No dejes de visitarnos!</p>
+                    </div>
+                </div>
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="footer-widget-area mt-50">
+                        <h6 class="widget-title mb-5">¡ENCUÉNTRANOS!</h6>
+                        <img src="img/bg-img/footer-map.png" alt="intimisimo-mexico" data-toggle="tooltip" data-placement="bottom" title="Veracruz y Playa del Carmen">
+                    </div>
+                </div>
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-widget-area mt-50">
+                        <h6 class="widget-title mb-5">NEWSLETTER</h6>
+                        <div id="contact-form" class="wow fadeIn first">
+                            <form id="contactNews" data-toggle="validator" class="subscribe-form">
+                                <div class="form-group col-12">
+                                    <input type="email" class="form-control mb-5" id="subscribeemail" placeholder="E-MAIL" required>
+                                    <div class="help-block with-errors"></div>
+                                    <div id="NewsMsgSubmit" class="h3 text-center hidden"></div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn palatin-btn" type="submit" id="form-submit" title="¡Suscríbete ya!">SUSCRIBIR</button>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Copywrite Text -->
+                <div class="col-12">
+                    <div class="copywrite-text mt-30">
+                        <p>
+                            Copyright &copy;<script>
+                            document.write(new Date().getFullYear());
+                            </script>. Todos los derechos reservados. Desarrollado por <a href="http://parapenteagencia.com" class="solo-rojo" target="_blank" data-toggle="tooltip" data-placement="top" title="¡Visítanos!">Parapente </a><i class="fa fa-heart-o" aria-hidden="true"></i>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=install_email page_id="1667473250197513" theme_color="#ff0000" logged_in_greeting="&#xa1;Hola! &#xa1;Gracias por contactarnos! " logged_out_greeting="&#xa1;Hola! &#xa1;Gracias por contactarnos! ">
+    </div>
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- contact-form -->
+    <script src="js/validator.min.js"></script>
+    <script src="js/form-veracruz.js"></script>
+    <script src="js/form-newsletter-veracruz.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <!-- google-maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmvGDB4jFjNlVZHzFD6yhoGeIB3LeTD68&callback=initMap" async defer></script>
+    <script src="js/map-veracruz.js"></script>
+    <!-- / google-maps -->
+    <!-- Facebook Messenger -->
+    <script src="js/fbmessenger.js"></script>
+</body>
+
+</html>

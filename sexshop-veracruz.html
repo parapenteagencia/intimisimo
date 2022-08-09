@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147524022-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147524022-1');
+  </script>
+    <!-- Metas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Intimísimo❤️ Sexshop Veracruz - ¡Que suba la temperatura!🔥 Todos de los juguetes sexuales🍆 que te proponemos darán un punto picante y nuevo a tus relaciones sexuales🍑">
+    <meta name="keywords" content="intimisimo, intimisimo sexshop, sexhshop veracruz, intimisimo juegueteria, intimisimo veracruz, motel intimisimo veracruz, motel intimisimo veracruz miguel aleman, hotel intimisimo veracruz, auto hotel intimisimo veracruz, motel intimisimo veracruz precios" />
+    <meta name="author" content="Luis Angel Hernández Castillo">
+    <!-- Title -->
+    <title>Intimísimo - Sexshop Veracruz</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="cssload-container">
+            <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
+        </div>
+    </div>
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="palatin-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="palatinNav">
+                        <!-- Nav brand -->
+                        <a href="http://intimisimo.mx" class="nav-brand"><img src="img/core-img/logo.png" alt="logo-intimisimo" data-toggle="tooltip" data-placement="bottom" title="Página principal"></a>
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="veracruz">Inicio</a></li>
+                                    <li><a href="habitaciones-veracruz">Habitaciones</a></li>
+                                    <li class="active"><a href="#">Sexshop</a></li>
+                                    <!--<li><a href="promociones-veracruz">Promociones</a></li>-->
+                                    <li><a href="contacto-veracruz">Contacto</a></li>
+                                </ul>
+                                <!-- Button -->
+                                <div class="menu-btn">
+                                    <a href="#reserva" class="btn palatin-btn" data-toggle="tooltip" data-placement="bottom" title="¡Reserva ya!">RESERVA</a>
+                                </div>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+    <!-- ##### Breadcumb Area Start ##### -->
+    <section class="breadcumb-area bg-img d-flex align-items-center justify-content-center" style="background-image: url(img/bg-img/bg-5.jpg);">
+        <div class="bradcumbContent">
+            <h2>SEXSHOP</h2>
+        </div>
+    </section>
+    <!-- ##### Breadcumb Area End ##### -->
+    <!-- ##### Book Now Area Start ##### -->
+    <div class="book-now-area" id="reserva">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="book-now-form">
+                        <form action="#">
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select1">FECHA</label>
+                                <input type="date" name="date" class="form-control" required>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select">SUCURSAL</label>
+                                <select name="tipohabitacion" class="form-control" required>
+                                    <option value="constituyentes">Miguel Alemán</option>
+                                    <option value="carretera">Aeropuerto</option>
+                                </select>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select2">HABITACIÓN</label>
+                                <select name="tipohabitacion" onChange="agregarOpciones(this.form)" class="form-control" required>
+                                    <option value="Junior Suite">Junior Suite</option>
+                                    <option value="Master Suite">Master Suite</option>
+                                </select>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select3">TIEMPO</label>
+                                <select name="horahabitacion" onChange="direccion(this.form)" class="form-control" required>
+                                    <option value="">Esperando selección</option>
+                                </select>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select4">ADULTOS</label>
+                                <input type="number" name="numero-adultos" class="form-control" required>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select5">NOMBRE</label>
+                                <input type="text" name="nombre" class="form-control" required>
+                            </div>
+                            <!-- Form Group -->
+                            <div class="form-group">
+                                <label for="select6">TELÉFONO</label>
+                                <input type="tel" name="telefono" class="form-control" required>
+                            </div>
+                            <!-- Button -->
+                            <button type="submit">¡RESERVA YA!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Book Now Area End ##### -->
+    <!-- ##### Service Intro Area Start ##### -->
+    <section class="services-intro">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Service Intro Text -->
+                <div class="col-12 col-lg-6">
+                    <div class="service-intro-text mb-100">
+                        <div class="section-heading">
+                            <div class="line-"></div>
+                            <h2>¡Que suba la temperatura!</h2>
+                        </div>
+                        <p>Discretos, provocativos, seductores, suaves, para ella o para él... ¡Nos encantan todas las opciones! Todos de los juguetes sexuales que te proponemos darán un punto picante a tus relaciones sexuales, haciéndote vivir una experiencia nueva con cada una de ellos ¿Qué esperas para probarlos?</p>
+                    </div>
+                </div>
+                <!-- Services Features -->
+                <div class="col-12 col-lg-6">
+                    <div class="row mb-100">
+                        <!-- Single Cool Facts -->
+                        <div class="col-12 col-sm-4">
+                            <div class="single-cool-fact">
+                                <div class="scf-text">
+                                    <img src="img/bg-img/menu.png" alt="servicio-al-cuarto">
+                                    <p>Servicio al Cuarto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Cool Facts -->
+                        <div class="col-12 col-sm-4">
+                            <div class="single-cool-fact">
+                                <div class="scf-text">
+                                    <img src="img/bg-img/higiene.png" alt="higiene">
+                                    <p>Higiene</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Cool Facts -->
+                        <div class="col-12 col-sm-4">
+                            <div class="single-cool-fact">
+                                <div class="scf-text">
+                                    <img src="img/bg-img/calidad.png" alt="calidad">
+                                    <p>Calidad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Service Intro Area End ##### -->
+    <!-- ##### Services Area Start ##### -->
+    <section class="services-area">
+        <div class="container">
+            <div class="row">
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="100ms">
+                        <img src="img/bg-img/condon.png" alt="condones">
+                        <h4 class="text-white">Condones</h4>
+                        <p>¡Elige el mejor para ti! Se trata de condones para quienes buscan absoluta seguridad. Tienen un diseño anatómico que permite una fácil colocación.</p>
+                    </div>
+                </div>
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="200ms">
+                        <img src="img/bg-img/lubricante.png" alt="lubricantes">
+                        <h4 class="text-white">Lubricantes</h4>
+                        <p>Los lubricantes y el sexo son la mezcla perfecta para disfrutar más y mejor de la relación con tu pareja.</p>
+                    </div>
+                </div>
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="300ms">
+                        <img src="img/bg-img/pastillas.png" alt="viagra-retardadores">
+                        <h4 class="text-white">Viagra y Retardadores</h4>
+                        <p>Permiten mayor flujo sanguíneo y retardan la erección. Encuéntralo en sus diferentes presentaciones.</p>
+                    </div>
+                </div>
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="400ms">
+                        <img src="img/bg-img/vibrador.png" alt="dildos-consoladores">
+                        <h4 class="text-white">Dildos y Consoladores</h4>
+                        <p>Haz realidad tus fantasías y experimenta nuevas sensaciones. Disponibles de 13 a 25 cm.</p>
+                    </div>
+                </div>
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="img/bg-img/latigo.png" alt="kits-sexuales">
+                        <h4 class="text-white">Kits Sexuales</h4>
+                        <p>El juego sexual jamás debe caer en la rutina y una buena idea para innovar son los kits sexuales.</p>
+                    </div>
+                </div>
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-100 wow fadeInUp" data-wow-delay="600ms">
+                        <img src="img/bg-img/enfermera.png" alt="disfraces">
+                        <h4 class="text-white">Disfraces</h4>
+                        <p>Sugerentes, excitantes y atractivas ¿Te animas a vestirte de enfermera?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="solo-rojo text-center mb-5">¡Píde el catálogo en tu habitación!</h2>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Services Area End ##### -->
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-lg-5">
+                    <div class="footer-widget-area mt-50">
+                        <a href="http://intimisimo.mx" class="d-block mb-5" data-toggle="tooltip" data-placement="top" title="Página principal"><img src="img/core-img/logo.png" alt="logo-intimisimo"></a>
+                        <p>Somos una empresa orgullosamente mexicana con presencia en Playa del Carmen y Veracruz. ¡No dejes de visitarnos!</p>
+                    </div>
+                </div>
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="footer-widget-area mt-50">
+                        <h6 class="widget-title mb-5">¡ENCUÉNTRANOS!</h6>
+                        <img src="img/bg-img/footer-map.png" alt="intimisimo-mexico" data-toggle="tooltip" data-placement="bottom" title="Veracruz y Playa del Carmen">
+                    </div>
+                </div>
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="footer-widget-area mt-50">
+                        <h6 class="widget-title mb-5">NEWSLETTER</h6>
+                        <div id="contact-form" class="wow fadeIn first">
+                            <form id="contactNews" data-toggle="validator" class="subscribe-form">
+                                <div class="form-group col-12">
+                                    <input type="email" class="form-control mb-5" id="subscribeemail" placeholder="E-MAIL" required>
+                                    <div class="help-block with-errors"></div>
+                                    <div id="NewsMsgSubmit" class="h3 text-center hidden"></div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn palatin-btn" type="submit" id="form-submit" title="¡Suscríbete ya!">SUSCRIBIR</button>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Copywrite Text -->
+                <div class="col-12">
+                    <div class="copywrite-text mt-30">
+                        <p>
+                            Copyright &copy;<script>
+                            document.write(new Date().getFullYear());
+                            </script>. Todos los derechos reservados. Desarrollado por <a href="http://parapenteagencia.com" class="solo-rojo" target="_blank" data-toggle="tooltip" data-placement="top" title="¡Visítanos!">Parapente </a><i class="fa fa-heart-o" aria-hidden="true"></i>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=install_email page_id="1667473250197513" theme_color="#ff0000" logged_in_greeting="&#xa1;Hola! &#xa1;Gracias por contactarnos! " logged_out_greeting="&#xa1;Hola! &#xa1;Gracias por contactarnos! ">
+    </div>
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- contact-form -->
+    <script src="js/validator.min.js"></script>
+    <script src="js/form-newsletter-veracruz.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <!-- Facebook Messenger -->
+    <script src="js/fbmessenger.js"></script>
+</body>
+
+</html>
